@@ -1,0 +1,22 @@
+{
+  "name": "HTML5 Speed Controller",
+  "version": "0.0.1",
+  "icons": {
+      "128" : "flash.png"
+  } ,
+  "description": "Control HTML5 video speeds with keyboard shotcuts",
+  "permissions": ["tabs"],
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": ["<all_urls>"],
+      "js": ["jquery-2.2.4.min.js"]
+    },
+    {
+      "all_frames": true,
+      "matches": ["<all_urls>"],
+      "js": ["speedster-youtube.js"]
+    }
+  ]
+}
