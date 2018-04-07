@@ -2,7 +2,7 @@
   "name": "Speedster",
   "version": "1.0.0",
   "icons": {
-      "128" : "flash.png"
+      "128" : "images/flash.png"
   } ,
   "description": "Control HTML5 video speeds with keyboard shotcuts",
   "permissions": ["tabs"],
